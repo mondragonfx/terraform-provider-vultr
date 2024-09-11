@@ -110,7 +110,6 @@ Will not do anything unless enable_ipv6 is also true.`,
 				Type:     schema.TypeString,
 				Computed: true,
 				Optional: true,
-				ForceNew: true,
 			},
 			"activation_email": {
 				Type:     schema.TypeBool,
